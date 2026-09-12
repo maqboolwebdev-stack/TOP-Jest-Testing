@@ -17,7 +17,6 @@ export function caesarCipher(str, shift) {
   }).join('');
 }
 
-// Tests
-console.log(caesarCipher('xyz', 3));  
+console.log(caesarCipher('xyz', 3));
 console.log(caesarCipher('HeLLo', 3));
 console.log(caesarCipher('Hello, World!', 3));
